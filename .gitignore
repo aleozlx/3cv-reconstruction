@@ -105,3 +105,5 @@ Bear/
 Deer/
 Building/
 checkerboard/
+.vs/
+*.pkl

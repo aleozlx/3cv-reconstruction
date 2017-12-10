@@ -63,6 +63,7 @@
     <Content Include="links.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="get_datasets.py" />
     <Compile Include="reconstruct.py" />
   </ItemGroup>
   <ItemGroup>
