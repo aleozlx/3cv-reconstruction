@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{e5d801fb-3387-4a83-9a68-5d2fc176860a}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>reconstruct.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>{06e11f91-a696-4a73-88da-af5cbb32c5b1}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="b1.jpg" />
+    <Content Include="b2.jpg" />
+    <Content Include="Bear\20171128_IMG_7763.JPG" />
+    <Content Include="Bear\20171128_IMG_7764.JPG" />
+    <Content Include="Bear\20171128_IMG_7765.JPG" />
+    <Content Include="Bear\20171128_IMG_7766.JPG" />
+    <Content Include="Bear\20171128_IMG_7767.JPG" />
+    <Content Include="Bear\20171128_IMG_7768.JPG" />
+    <Content Include="Bear\20171128_IMG_7769.JPG" />
+    <Content Include="Bear\20171128_IMG_7770.JPG" />
+    <Content Include="Building\2017_11\20171128_IMG_7759.JPG" />
+    <Content Include="Building\2017_11\20171128_IMG_7760.JPG" />
+    <Content Include="Building\2017_11\20171128_IMG_7761.JPG" />
+    <Content Include="Building\2017_11\20171128_IMG_7762.JPG" />
+    <Content Include="checkerboard\20171128_IMG_7771.JPG" />
+    <Content Include="checkerboard\20171128_IMG_7772.JPG" />
+    <Content Include="checkerboard\20171128_IMG_7773.JPG" />
+    <Content Include="checkerboard\20171128_IMG_7774.JPG" />
+    <Content Include="checkerboard\20171128_IMG_7775.JPG" />
+    <Content Include="checkerboard\20171128_IMG_7776.JPG" />
+    <Content Include="checkerboard\20171128_IMG_7777.JPG" />
+    <Content Include="checkerboard\20171128_IMG_7778.JPG" />
+    <Content Include="checkerboard\20171128_IMG_7779.JPG" />
+    <Content Include="checkerboard\20171128_IMG_7780.JPG" />
+    <Content Include="checkerboard\20171128_IMG_7781.JPG" />
+    <Content Include="checkerboard\20171128_IMG_7782.JPG" />
+    <Content Include="checkerboard\20171128_IMG_7783.JPG" />
+    <Content Include="checkerboard\20171128_IMG_7784.JPG" />
+    <Content Include="checkerboard\20171128_IMG_7785.JPG" />
+    <Content Include="checkerboard\20171128_IMG_7786.JPG" />
+    <Content Include="checkerboard\20171128_IMG_7787.JPG" />
+    <Content Include="checkerboard\20171128_IMG_7788.JPG" />
+    <Content Include="checkerboard\20171128_IMG_7789.JPG" />
+    <Content Include="Deer\2017_11\20171128_IMG_7753.JPG" />
+    <Content Include="Deer\2017_11\20171128_IMG_7754.JPG" />
+    <Content Include="Deer\2017_11\20171128_IMG_7755.JPG" />
+    <Content Include="Deer\2017_11\20171128_IMG_7756.JPG" />
+    <Content Include="Deer\2017_11\20171128_IMG_7757.JPG" />
+    <Content Include="Deer\2017_11\20171128_IMG_7758.JPG" />
+    <Content Include="links.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="reconstruct.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Bear" />
+    <Folder Include="Building\" />
+    <Folder Include="Building\2017_11" />
+    <Folder Include="checkerboard" />
+    <Folder Include="Deer\" />
+    <Folder Include="Deer\2017_11" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{06e11f91-a696-4a73-88da-af5cbb32c5b1}\3.5" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
